@@ -1,0 +1,19 @@
+= Dot Files Starter
+
+These are config files geared toward setting up a system for a beginner who
+wants to use vim and/or tmux. They are meant to be basic and not have too many
+opinions about how a system ought to be set up.
+
+== Installation
+
+  git clone git@github.com:daviddavis/dotfiles.git ~/.dotfiles
+  cd ~/.dotfiles
+  rake install
+  git submodule init
+  git submodule update
+  vim -c "BundleInstall"
+
+
+== Environment
+
+I am running on Mac OS X, but it will likely work on Linux as well.
