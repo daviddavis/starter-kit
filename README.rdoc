@@ -6,7 +6,7 @@ opinions about how a system ought to be set up.
 
 == Installation
 
-  git clone git@github.com:daviddavis/dotfiles.git ~/.dotfiles
+  git clone https://github.com/SciMed/starter-kit.git ~/.dotfiles
   cd ~/.dotfiles
   rake install
   git submodule init
