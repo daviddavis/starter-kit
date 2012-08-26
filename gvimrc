@@ -1,5 +1,5 @@
 set number
-colorscheme Tango2
+colorscheme Tomorrow-Night
 set guioptions=e
 set showtabline=2
 set tabpagemax=15
@@ -14,8 +14,8 @@ set guioptions+=r
 " set up peepopen (to cmd p)
 if has("gui_macvim")
   " go to normal mode after save
-  iunmenu File.Save
-  imenu <silent> File.Save <Esc>:if expand("%") == ""<Bar>browse confirm w<Bar>else<Bar>confirm w<Bar>endif<CR>
+  "iunmenu File.Save
+  "imenu <silent> File.Save <Esc>:if expand("%") == ""<Bar>browse confirm w<Bar>else<Bar>confirm w<Bar>endif<CR>
 
   " Command-][ to increase/decrease indentation like textmate
   vmap <D-]> >gv
